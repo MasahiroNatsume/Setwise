@@ -1,0 +1,36 @@
+# Secrets
+backend/.env
+.env
+
+# Python
+**/__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# Virtualenv
+**/venv/
+.venv/
+
+# Generated audio / cache
+backend/audio_output/
+backend/audio_cache/
+*.wav
+
+# Local model artifacts (keep if you intentionally version these)
+*.onnx
+
+# Flutter / Dart build
+frontend/build/
+stepwise/build/
+**/.dart_tool/
+
+# IDE / OS
+.idea/
+.vscode/
+*.swp
+Thumbs.db
+.DS_Store
